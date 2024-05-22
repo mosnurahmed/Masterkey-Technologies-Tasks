@@ -1,0 +1,42 @@
+.partition {
+  display: flex;
+  position: relative;
+  border: 1px solid #000;
+}
+
+.controls {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+p{
+  border:1px solid black;
+  padding: .2em 1em;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.split-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.resizer {
+  background: #000;
+  opacity: 0.5;
+  z-index: 1;
+  position: relative;
+}
+
+.vertical {
+  width: 5px;
+  cursor: col-resize;
+}
+
+.horizontal {
+  height: 5px;
+  cursor: row-resize;
+}
